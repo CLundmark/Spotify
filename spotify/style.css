@@ -1,0 +1,257 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+body{
+    height: 100vh;
+    background: #2D46B9;
+
+}
+header{
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background: black;
+    width: 100%;
+    height: 80px;
+    
+
+}
+.top-menu{
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+   width: 45%;
+
+
+}
+.Logo{
+    display: flex;
+    position: absolute;
+    left: 0;
+
+}
+
+.nav-menu{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    right: 0;
+
+
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    padding:25px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.nav-menu a:hover{
+color: rgb(15, 204, 15);
+
+
+}
+
+img{
+    height: 40px;
+}
+.streck{
+    width: 1px;
+    height: 15px;
+    background:white;
+
+
+}
+.main{
+    
+    padding-top: 400px ;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    background: url(https://www.scdn.co/i/home/lieVariants/bursts.svg) center/cover;
+    background-size: 150% 300%;
+    background-position: -500px -800px;
+    
+}
+
+h1{
+ color: #1ed760;
+ font-size: 7em;
+
+}
+p{
+    margin-top: 20px;
+    color: #1ed760;
+    font-size: 17px;
+
+}
+
+input{
+    margin-top: 30px;
+    background: #1ed760;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    color: #2D46B9 ;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* Footer */
+
+
+
+footer {
+    
+    background: black;
+    width: 100%;
+    color: white;
+    height: 540px;
+}
+.small-logo{
+
+}
+
+.content{
+    width: 100%;
+
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    padding-top:70px;
+    justify-content: center;
+
+}
+.Företaget p, .Communities p, .Länkar p{
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+
+
+
+
+}
+.Företaget, .Communities, .Länkar{
+display: flex;
+flex-direction: column;
+margin-left: 80px;
+
+}
+.Företaget a, .Communities a, .Länkar a{
+margin-top: 5px;
+
+
+
+}
+}
+.Företaget{
+    margin-left: 280px;
+
+
+}
+
+a{
+
+color: white;
+padding: 5px;
+font-size: 14px;
+text-decoration: none;
+
+
+
+}
+a:hover{
+    color: rgb(15, 204, 15);
+
+
+
+}
+
+.social{
+    
+    margin-left: 200px;
+}
+.social-items{
+    font-size: 50px;
+    margin-left: 20px ;
+
+}
+.Juridiskinformation, .Sekretesscenter,
+.bottom, .Integritetspolicy, .Cookies, .Omannonser{
+
+color: grey;
+font-size: 13px;
+
+
+}
+.bottom{
+
+display: flex;
+padding-left: 30%;
+padding-top: 150px;
+color: gray;
+
+
+
+
+}
+
+}
+img{
+    width: 5px;
+
+
+}
+
+.land-copy{
+
+width: 100%;
+position: absolute;
+margin-left:68%;
+margin-top: -70px;
+
+
+
+
+}
+.land-copy a{
+
+color: grey;
+
+}
+
+.land-copy p{
+
+color:grey;
+font-size: 14px;
+
+}
+.land-copy a:hover{
+    color: rgb(15, 204, 15);
+
+
+}
+.land, .copy{
+
+
+}
+.flagga{
+height: 45px;
+width:30px;
+padding-top: 30px;
+}
+
